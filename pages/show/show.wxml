@@ -1,0 +1,9 @@
+<!--pages/show/show.wxml-->
+<!-- <text>pages/show/show.wxml</text> -->
+<!-- app.json中放在前面表示当前正在编辑的文件,修改之后需要把index放到最前面 -->
+<view class="title">展示页面</view>
+<view class="container">
+  <image src="{{user.avatarUrl}}"></image>
+  <text bindtap="show">{{ user.nickName }}</text>
+  <text>{{ user.gender==1?'帅哥':'美女' }}</text>
+</view>

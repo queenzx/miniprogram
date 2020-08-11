@@ -1,0 +1,16 @@
+/* pages/show/show.wxss */
+.title{
+  font-size:xx-large;
+  font-size:2.5em;
+  font-weight:bolder;
+  text-align: center;
+}
+
+image{
+  width:150rpx;
+  height:150rpx;
+  border-radius:50%;
+}
+text{
+  font-size:1.5em;
+}
